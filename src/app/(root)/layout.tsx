@@ -1,4 +1,4 @@
-import { IAuthLayout } from "@/types";
+import { IAuthLayout } from "@/types/props";
 import Sidebar from "./../../components/shared/Sidebar";
 import MobileNav from "@/components/shared/MobileNav";
 
