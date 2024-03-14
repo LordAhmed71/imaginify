@@ -4,5 +4,9 @@ interface IAuthLayout {
 interface IRootLayout {
   children: React.ReactNode;
 }
+interface IHeader {
+  title: string;
+  subtitle?: string;
+}
 
-export type { IAuthLayout, IRootLayout };
+export type { IAuthLayout, IRootLayout, IHeader };
